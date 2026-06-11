@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Links</title>
+ <style>
+  body {
+   font-family: Arial, Helvetica, sans-serif;
+  }
+  a {
+   color: purple;
+   text-decoration: none;
+   font-weight: bold;
+  }
+  a:visited {
+   color: darkred;
+  }
+  a:hover {
+   color: black;
+   text-decoration: underline;
+  }
+  a:active {
+   color: green;
+  }
+  a::after {
+   content: '[link]';
+   text-decoration: none;
+   font-weight: normal;
+   color: darkgray;
+  }
+  .especial::before {
+   content: '👉🏽';
+  }
+ </style>
+</head>
+
+<body>
+  <h1>Personalizando Links</h1>
+  <ul>
+   <li><a href="https://github.com/le0-collab/exercicios-html5-css3" target="_blank" rel="external" class="especial">Repositório GitHub</a></li>
+   <li><a href="https://www.instagram.com/le0.s0uza?igsh=MWI0NTlkMm92bnNxdg%3D%3D&utm_source=qr" target="_blank" rel="external">Instagram</a></li>
+   <li><a href="meu-site/pagina1.html" target="_self" rel="next">Meu site</a></li>
+  </ul>
+</body>
+
+</html>

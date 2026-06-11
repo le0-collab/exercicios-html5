@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+* {
+min-height: 0;
+}
+body {
+ background-image: linear-gradient(to bottom, white 10%,#B498D1);
+ min-height: 100vh;
+}
+main {
+ background-color: white;
+ padding: 15px;
+ box-shadow: 4px 4px 14px #B9A6ED;
+}
+h1 {
+ font-family: merienda, sans-serif;
+ color: #2D0D4F;
+ text-align: center;
+}
+h2 {
+ font-family: serif;
+}
+p {
+ font-size: 0.90;
+ font-family: Courier, monospace;
+}
